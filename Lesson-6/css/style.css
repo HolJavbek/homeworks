@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: inline-block;
+  width: 1010px;
+  background-color: #fff;
+  position: absolute;
+  top: 86px;
+  left: 165px;
+}
+
+.img, .main {
+  height: 375px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 64px 47px;
+}
+.img {
+  width: 376px;
+}
+.price {
+  font-size: 30px;
+}
+.btn {
+  margin-top: 60px;
+}
+.button {
+  width: 251px;
+  height: 50px;
+  font-size: 19px;
+  color: #fff;
+  background-color: #ec744a;
+  border: none;
+}
